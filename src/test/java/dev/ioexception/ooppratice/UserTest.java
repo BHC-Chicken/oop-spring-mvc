@@ -13,8 +13,18 @@ class UserTest {
     void passwordTest() {
         User user = new User();
 
-        user.initPassword();
+        user.initPassword(new CorrectFixedPasswordGenerator());
 
         assertThat(user.getPassword()).isNotNull();
+    }
+
+    @DisplayName("패스워드 초기화되지 않는 경우")
+    @Test
+    void passwordTest2() {
+        User user = new User();
+
+        user.initPassword(new WrongFixedPasswordGenerator());
+
+        assertThat(user.getPassword()).isNull();
     }
 }
