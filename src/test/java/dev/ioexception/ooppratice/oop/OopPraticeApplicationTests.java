@@ -1,4 +1,4 @@
-package dev.ioexception.ooppratice;
+package dev.ioexception.ooppratice.oop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

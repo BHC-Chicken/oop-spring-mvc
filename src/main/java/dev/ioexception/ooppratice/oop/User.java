@@ -1,4 +1,4 @@
-package dev.ioexception.ooppratice;
+package dev.ioexception.ooppratice.oop;
 
 public class User {
     private String password;

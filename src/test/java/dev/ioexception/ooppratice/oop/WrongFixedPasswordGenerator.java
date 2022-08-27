@@ -1,4 +1,6 @@
-package dev.ioexception.ooppratice;
+package dev.ioexception.ooppratice.oop;
+
+import dev.ioexception.ooppratice.oop.PasswordGenerator;
 
 public class WrongFixedPasswordGenerator implements PasswordGenerator {
 

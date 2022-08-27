@@ -1,5 +1,6 @@
-package dev.ioexception.ooppratice;
+package dev.ioexception.ooppratice.oop;
 
+import dev.ioexception.ooppratice.oop.PasswordValidator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
