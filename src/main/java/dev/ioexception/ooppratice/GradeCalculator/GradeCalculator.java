@@ -10,6 +10,10 @@ public class GradeCalculator {
         this.courses = new Courses(courses);
     }
 
+    public GradeCalculator(Courses courses) {
+        this.courses = courses;
+    }
+
     public double calculateGrade() {
         double totalCompletedCreditAndCourseGrade = courses.multiplyCreditAndCourseGrade();
 
